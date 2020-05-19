@@ -50,11 +50,7 @@ export const Groups = ({
                 </SingleSelectField>
             </div>
             {groupDetail && (
-                <Detail
-                    currentValue={detailValue}
-                    onChange={onDetailChange}
-                    options={groupDetail.alternatives}
-                />
+                <Detail currentValue={detailValue} onChange={onDetailChange} />
             )}
         </div>
     )
